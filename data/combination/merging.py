@@ -2,11 +2,11 @@ import json
 
 # List of file paths
 json_files = [
-    '../../data/ingestion/spotify_data.json',
-    '../../data/ingestion/itunes_data.json',
-    '../../data/ingestion/deezer_data.json',
-    '../../data/ingestion/lastfm_data.json',
-    '../../data/ingestion/billboard_data.json'
+    '../../data/formation/spotify_formatted_data.json',
+    '../../data/formation/itunes_formatted_data.json',
+    '../../data/formation/deezer_formatted_data.json',
+    '../../data/formation/lastfm_formatted_data.json',
+    '../../data/formation/billboard_formatted_data.json'
 ]
 
 # Create an empty list to store the data from all files
