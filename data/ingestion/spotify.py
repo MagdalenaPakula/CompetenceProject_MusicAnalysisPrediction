@@ -75,7 +75,7 @@ def fetch_spotify_data():
     with open("spotify_data.json", "w") as json_file:
         json.dump(track_data, json_file)
 
-    print("Track data saved to spotify_track_data.json")
+    print("Track data saved to spotify_data.json")
 
 
 fetch_spotify_data()
