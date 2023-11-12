@@ -1,0 +1,902 @@
+[
+    {
+        "Track Name":"First Person Shooter",
+        "Artist Name":"Drake Featuring J. Cole",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2009\/04\/drake-04g-180x180.jpg",
+        "Rank":1,
+        "Last Week Rank":null,
+        "Peak Rank":1,
+        "Weeks on Chart":1
+    },
+    {
+        "Track Name":"IDGAF",
+        "Artist Name":"Drake Featuring Yeat",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2009\/04\/drake-04g-180x180.jpg",
+        "Rank":2,
+        "Last Week Rank":null,
+        "Peak Rank":2,
+        "Weeks on Chart":1
+    },
+    {
+        "Track Name":"Virginia Beach",
+        "Artist Name":"Drake",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2009\/04\/drake-04g-180x180.jpg",
+        "Rank":3,
+        "Last Week Rank":null,
+        "Peak Rank":3,
+        "Weeks on Chart":1
+    },
+    {
+        "Track Name":"Paint The Town Red",
+        "Artist Name":"Doja Cat",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/08\/dojacat-cqv-paintthetownred-unh-180x180.jpg",
+        "Rank":4,
+        "Last Week Rank":1.0,
+        "Peak Rank":1,
+        "Weeks on Chart":10
+    },
+    {
+        "Track Name":"Calling For You",
+        "Artist Name":"Drake Featuring 21 Savage",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2009\/04\/drake-04g-180x180.jpg",
+        "Rank":5,
+        "Last Week Rank":null,
+        "Peak Rank":5,
+        "Weeks on Chart":1
+    },
+    {
+        "Track Name":"Slime You Out",
+        "Artist Name":"Drake Featuring SZA",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/09\/drake-04g-slimeyouout-0gt-180x180.jpg",
+        "Rank":6,
+        "Last Week Rank":18.0,
+        "Peak Rank":1,
+        "Weeks on Chart":4
+    },
+    {
+        "Track Name":"Snooze",
+        "Artist Name":"SZA",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2022\/12\/sza-xyh-snooze-eom-180x180.jpg",
+        "Rank":7,
+        "Last Week Rank":2.0,
+        "Peak Rank":2,
+        "Weeks on Chart":44
+    },
+    {
+        "Track Name":"Daylight",
+        "Artist Name":"Drake",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2009\/04\/drake-04g-180x180.jpg",
+        "Rank":8,
+        "Last Week Rank":null,
+        "Peak Rank":8,
+        "Weeks on Chart":1
+    },
+    {
+        "Track Name":"Cruel Summer",
+        "Artist Name":"Taylor Swift",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2019\/08\/taylor-swift-824-cruelsummer-mg7-180x180.jpg",
+        "Rank":9,
+        "Last Week Rank":3.0,
+        "Peak Rank":3,
+        "Weeks on Chart":23
+    },
+    {
+        "Track Name":"Fear Of Heights",
+        "Artist Name":"Drake",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2009\/04\/drake-04g-180x180.jpg",
+        "Rank":10,
+        "Last Week Rank":null,
+        "Peak Rank":10,
+        "Weeks on Chart":1
+    },
+    {
+        "Track Name":"Rich Baby Daddy",
+        "Artist Name":"Drake Featuring Sexyy Red & SZA",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2009\/04\/drake-04g-180x180.jpg",
+        "Rank":11,
+        "Last Week Rank":null,
+        "Peak Rank":11,
+        "Weeks on Chart":1
+    },
+    {
+        "Track Name":"Gently",
+        "Artist Name":"Drake Featuring Bad Bunny",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2009\/04\/drake-04g-180x180.jpg",
+        "Rank":12,
+        "Last Week Rank":null,
+        "Peak Rank":12,
+        "Weeks on Chart":1
+    },
+    {
+        "Track Name":"Fast Car",
+        "Artist Name":"Luke Combs",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2015\/07\/luke-combs-9dm-180x180.jpg",
+        "Rank":13,
+        "Last Week Rank":4.0,
+        "Peak Rank":2,
+        "Weeks on Chart":29
+    },
+    {
+        "Track Name":"I Remember Everything",
+        "Artist Name":"Zach Bryan Featuring Kacey Musgraves",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/09\/zachbryan-de1-iremembereverything-to3-180x180.jpg",
+        "Rank":14,
+        "Last Week Rank":6.0,
+        "Peak Rank":1,
+        "Weeks on Chart":7
+    },
+    {
+        "Track Name":"Amen",
+        "Artist Name":"Drake Featuring Teezo Touchdown",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2009\/04\/drake-04g-180x180.jpg",
+        "Rank":15,
+        "Last Week Rank":null,
+        "Peak Rank":15,
+        "Weeks on Chart":1
+    },
+    {
+        "Track Name":"7969 Santa",
+        "Artist Name":"Drake",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2009\/04\/drake-04g-180x180.jpg",
+        "Rank":16,
+        "Last Week Rank":null,
+        "Peak Rank":16,
+        "Weeks on Chart":1
+    },
+    {
+        "Track Name":"8am In Charlotte",
+        "Artist Name":"Drake",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2009\/04\/drake-04g-180x180.jpg",
+        "Rank":17,
+        "Last Week Rank":null,
+        "Peak Rank":17,
+        "Weeks on Chart":1
+    },
+    {
+        "Track Name":"What Would Pluto Do",
+        "Artist Name":"Drake",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2009\/04\/drake-04g-180x180.jpg",
+        "Rank":18,
+        "Last Week Rank":null,
+        "Peak Rank":18,
+        "Weeks on Chart":1
+    },
+    {
+        "Track Name":"Last Night",
+        "Artist Name":"Morgan Wallen",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2016\/08\/morgan-wallen-nlu-180x180.jpg",
+        "Rank":19,
+        "Last Week Rank":7.0,
+        "Peak Rank":1,
+        "Weeks on Chart":37
+    },
+    {
+        "Track Name":"Bahamas Promises",
+        "Artist Name":"Drake",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2009\/04\/drake-04g-180x180.jpg",
+        "Rank":20,
+        "Last Week Rank":null,
+        "Peak Rank":20,
+        "Weeks on Chart":1
+    },
+    {
+        "Track Name":"Tried Our Best",
+        "Artist Name":"Drake",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2009\/04\/drake-04g-180x180.jpg",
+        "Rank":21,
+        "Last Week Rank":null,
+        "Peak Rank":21,
+        "Weeks on Chart":1
+    },
+    {
+        "Track Name":"Vampire",
+        "Artist Name":"Olivia Rodrigo",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/06\/oliviarodrigo-3wl-vampire-q3w-180x180.jpg",
+        "Rank":22,
+        "Last Week Rank":9.0,
+        "Peak Rank":1,
+        "Weeks on Chart":15
+    },
+    {
+        "Track Name":"Fukumean",
+        "Artist Name":"Gunna",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/06\/gunna-czg-fukumean-3ws-180x180.jpg",
+        "Rank":23,
+        "Last Week Rank":8.0,
+        "Peak Rank":4,
+        "Weeks on Chart":17
+    },
+    {
+        "Track Name":"Members Only",
+        "Artist Name":"Drake Featuring PARTYNEXTDOOR",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2009\/04\/drake-04g-180x180.jpg",
+        "Rank":24,
+        "Last Week Rank":null,
+        "Peak Rank":24,
+        "Weeks on Chart":1
+    },
+    {
+        "Track Name":"Thinkin' Bout Me",
+        "Artist Name":"Morgan Wallen",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2016\/08\/morgan-wallen-nlu-180x180.jpg",
+        "Rank":25,
+        "Last Week Rank":13.0,
+        "Peak Rank":9,
+        "Weeks on Chart":32
+    },
+    {
+        "Track Name":"All The Parties",
+        "Artist Name":"Drake Featuring Chief Keef",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2009\/04\/drake-04g-180x180.jpg",
+        "Rank":26,
+        "Last Week Rank":null,
+        "Peak Rank":26,
+        "Weeks on Chart":1
+    },
+    {
+        "Track Name":"Drew A Picasso",
+        "Artist Name":"Drake",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2009\/04\/drake-04g-180x180.jpg",
+        "Rank":27,
+        "Last Week Rank":null,
+        "Peak Rank":27,
+        "Weeks on Chart":1
+    },
+    {
+        "Track Name":"Dance The Night",
+        "Artist Name":"Dua Lipa",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/06\/dua-lipa-eqf-dancethenight-thm-180x180.jpg",
+        "Rank":28,
+        "Last Week Rank":11.0,
+        "Peak Rank":6,
+        "Weeks on Chart":20
+    },
+    {
+        "Track Name":"Another Late Night",
+        "Artist Name":"Drake Featuring Lil Yachty",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2009\/04\/drake-04g-180x180.jpg",
+        "Rank":29,
+        "Last Week Rank":null,
+        "Peak Rank":29,
+        "Weeks on Chart":1
+    },
+    {
+        "Track Name":"Greedy",
+        "Artist Name":"Tate McRae",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/09\/tatemcrae-rxu-greedy-2h2-180x180.jpg",
+        "Rank":30,
+        "Last Week Rank":14.0,
+        "Peak Rank":14,
+        "Weeks on Chart":4
+    },
+    {
+        "Track Name":"Barbie World",
+        "Artist Name":"Nicki Minaj & Ice Spice With Aqua",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/06\/nicki-minaj-q7l-barbieworld-yox-180x180.jpg",
+        "Rank":31,
+        "Last Week Rank":12.0,
+        "Peak Rank":7,
+        "Weeks on Chart":16
+    },
+    {
+        "Track Name":"Away From Home",
+        "Artist Name":"Drake",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2009\/04\/drake-04g-180x180.jpg",
+        "Rank":32,
+        "Last Week Rank":null,
+        "Peak Rank":32,
+        "Weeks on Chart":1
+    },
+    {
+        "Track Name":"Flowers",
+        "Artist Name":"Miley Cyrus",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/01\/miley-cyrus-jca-flowers-rqa-180x180.jpg",
+        "Rank":33,
+        "Last Week Rank":15.0,
+        "Peak Rank":1,
+        "Weeks on Chart":39
+    },
+    {
+        "Track Name":"Need A Favor",
+        "Artist Name":"Jelly Roll",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2022\/12\/jelly-roll-z4p-needafavor-04i-180x180.jpg",
+        "Rank":34,
+        "Last Week Rank":17.0,
+        "Peak Rank":14,
+        "Weeks on Chart":28
+    },
+    {
+        "Track Name":"Religiously",
+        "Artist Name":"Bailey Zimmerman",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/04\/baileyzimmerman-qt3-religiously-jbx-180x180.jpg",
+        "Rank":35,
+        "Last Week Rank":16.0,
+        "Peak Rank":13,
+        "Weeks on Chart":23
+    },
+    {
+        "Track Name":"BBL Love Interlude",
+        "Artist Name":"Drake",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2009\/04\/drake-04g-180x180.jpg",
+        "Rank":36,
+        "Last Week Rank":null,
+        "Peak Rank":36,
+        "Weeks on Chart":1
+    },
+    {
+        "Track Name":"Polar Opposites",
+        "Artist Name":"Drake",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2009\/04\/drake-04g-180x180.jpg",
+        "Rank":37,
+        "Last Week Rank":null,
+        "Peak Rank":37,
+        "Weeks on Chart":1
+    },
+    {
+        "Track Name":"Used To Be Young",
+        "Artist Name":"Miley Cyrus",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/09\/miley-cyrus-jca-usedtobeyoung-xxs-180x180.jpg",
+        "Rank":38,
+        "Last Week Rank":23.0,
+        "Peak Rank":8,
+        "Weeks on Chart":7
+    },
+    {
+        "Track Name":"Bad Idea Right?",
+        "Artist Name":"Olivia Rodrigo",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/08\/oliviarodrigo-3wl-badidearightX-ych-180x180.jpg",
+        "Rank":39,
+        "Last Week Rank":19.0,
+        "Peak Rank":7,
+        "Weeks on Chart":9
+    },
+    {
+        "Track Name":"Watermelon Moonshine",
+        "Artist Name":"Lainey Wilson",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2022\/12\/lainey-wilson-2a9-watermelonmoonshine-l73-180x180.jpg",
+        "Rank":40,
+        "Last Week Rank":21.0,
+        "Peak Rank":21,
+        "Weeks on Chart":16
+    },
+    {
+        "Track Name":"Anti-Hero",
+        "Artist Name":"Taylor Swift",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2022\/10\/taylor-swift-824-antihero-fgo-180x180.jpg",
+        "Rank":41,
+        "Last Week Rank":20.0,
+        "Peak Rank":1,
+        "Weeks on Chart":51
+    },
+    {
+        "Track Name":"Screw The World Interlude",
+        "Artist Name":"Drake",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2009\/04\/drake-04g-180x180.jpg",
+        "Rank":42,
+        "Last Week Rank":null,
+        "Peak Rank":42,
+        "Weeks on Chart":1
+    },
+    {
+        "Track Name":"Dial Drunk",
+        "Artist Name":"Noah Kahan With Post Malone",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/06\/noah-kahan-k6d-dialdrunk-onl-180x180.jpg",
+        "Rank":43,
+        "Last Week Rank":26.0,
+        "Peak Rank":25,
+        "Weeks on Chart":17
+    },
+    {
+        "Track Name":"Kill Bill",
+        "Artist Name":"SZA",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2022\/12\/sza-xyh-killbill-6i8-180x180.jpg",
+        "Rank":44,
+        "Last Week Rank":24.0,
+        "Peak Rank":1,
+        "Weeks on Chart":44
+    },
+    {
+        "Track Name":"All My Life",
+        "Artist Name":"Lil Durk Featuring J. Cole",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2013\/06\/lil-durk-hvd-180x180.jpg",
+        "Rank":45,
+        "Last Week Rank":22.0,
+        "Peak Rank":2,
+        "Weeks on Chart":22
+    },
+    {
+        "Track Name":"What Was I Made For?",
+        "Artist Name":"Billie Eilish",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/07\/billie-eilish-lrt-whatwasimadeforX-kn4-180x180.jpg",
+        "Rank":46,
+        "Last Week Rank":27.0,
+        "Peak Rank":14,
+        "Weeks on Chart":13
+    },
+    {
+        "Track Name":"What It Is (Block Boy)",
+        "Artist Name":"Doechii Featuring Kodak Black",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/04\/doechii-p52-whatitisblockboy-8qz-180x180.jpg",
+        "Rank":47,
+        "Last Week Rank":29.0,
+        "Peak Rank":29,
+        "Weeks on Chart":23
+    },
+    {
+        "Track Name":"Good Good",
+        "Artist Name":"Usher, Summer Walker & 21 Savage",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/08\/usher-9xv-goodgood-bv0-180x180.jpg",
+        "Rank":48,
+        "Last Week Rank":28.0,
+        "Peak Rank":28,
+        "Weeks on Chart":9
+    },
+    {
+        "Track Name":"Wild Ones",
+        "Artist Name":"Jessie Murph & Jelly Roll",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/10\/jessiemurph-000-wildones-lqw-180x180.jpg",
+        "Rank":49,
+        "Last Week Rank":null,
+        "Peak Rank":49,
+        "Weeks on Chart":1
+    },
+    {
+        "Track Name":"Creepin'",
+        "Artist Name":"Metro Boomin, The Weeknd & 21 Savage",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2013\/08\/metro-boomin-nxb-180x180.jpg",
+        "Rank":50,
+        "Last Week Rank":32.0,
+        "Peak Rank":3,
+        "Weeks on Chart":45
+    },
+    {
+        "Track Name":"White Horse",
+        "Artist Name":"Chris Stapleton",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/08\/chris-stapleton-kx1-whitehorse-jbq-180x180.jpg",
+        "Rank":51,
+        "Last Week Rank":38.0,
+        "Peak Rank":31,
+        "Weeks on Chart":12
+    },
+    {
+        "Track Name":"Daylight",
+        "Artist Name":"David Kushner",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/04\/davidkushner-mih-daylight-0lt-180x180.jpg",
+        "Rank":52,
+        "Last Week Rank":33.0,
+        "Peak Rank":33,
+        "Weeks on Chart":26
+    },
+    {
+        "Track Name":"Save Me",
+        "Artist Name":"Jelly Roll With Lainey Wilson",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/05\/jelly-roll-z4p-saveme-1jj-180x180.jpg",
+        "Rank":53,
+        "Last Week Rank":37.0,
+        "Peak Rank":37,
+        "Weeks on Chart":17
+    },
+    {
+        "Track Name":"My Love Mine All Mine",
+        "Artist Name":"Mitski",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/09\/mitski-bcr-mylovemineallmine-iqh-180x180.jpg",
+        "Rank":54,
+        "Last Week Rank":49.0,
+        "Peak Rank":49,
+        "Weeks on Chart":3
+    },
+    {
+        "Track Name":"Try That In A Small Town",
+        "Artist Name":"Jason Aldean",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/06\/jason-aldean-asu-trythatinasmalltown-j5c-180x180.jpg",
+        "Rank":55,
+        "Last Week Rank":36.0,
+        "Peak Rank":1,
+        "Weeks on Chart":13
+    },
+    {
+        "Track Name":"I Know ?",
+        "Artist Name":"Travis Scott",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2013\/07\/travis-scott-lu8-180x180.jpg",
+        "Rank":56,
+        "Last Week Rank":35.0,
+        "Peak Rank":11,
+        "Weeks on Chart":11
+    },
+    {
+        "Track Name":"Rich Men North Of Richmond",
+        "Artist Name":"Oliver Anthony Music",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/08\/oliveranthonymusic-zyi-richmennorthofrichmond-6u4-180x180.jpg",
+        "Rank":57,
+        "Last Week Rank":30.0,
+        "Peak Rank":1,
+        "Weeks on Chart":9
+    },
+    {
+        "Track Name":"3D",
+        "Artist Name":"Jung Kook & Jack Harlow",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/10\/jungkook-is6-3d-o9j-180x180.jpg",
+        "Rank":58,
+        "Last Week Rank":5.0,
+        "Peak Rank":5,
+        "Weeks on Chart":2
+    },
+    {
+        "Track Name":"Meltdown",
+        "Artist Name":"Travis Scott Featuring Drake",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2013\/07\/travis-scott-lu8-180x180.jpg",
+        "Rank":59,
+        "Last Week Rank":40.0,
+        "Peak Rank":3,
+        "Weeks on Chart":11
+    },
+    {
+        "Track Name":"Qlona",
+        "Artist Name":"Karol G & Peso Pluma",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2016\/05\/karol-g-7vn-180x180.jpg",
+        "Rank":60,
+        "Last Week Rank":42.0,
+        "Peak Rank":28,
+        "Weeks on Chart":9
+    },
+    {
+        "Track Name":"Agora Hills",
+        "Artist Name":"Doja Cat",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2018\/04\/dojacat-cqv-180x180.jpg",
+        "Rank":61,
+        "Last Week Rank":34.0,
+        "Peak Rank":18,
+        "Weeks on Chart":3
+    },
+    {
+        "Track Name":"Single Soon",
+        "Artist Name":"Selena Gomez",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/09\/selena-gomez-lkr-singlesoon-mqc-180x180.jpg",
+        "Rank":62,
+        "Last Week Rank":48.0,
+        "Peak Rank":19,
+        "Weeks on Chart":7
+    },
+    {
+        "Track Name":"Water",
+        "Artist Name":"Tyla",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/09\/tyla-000-water-6ao-180x180.jpg",
+        "Rank":63,
+        "Last Week Rank":67.0,
+        "Peak Rank":63,
+        "Weeks on Chart":2
+    },
+    {
+        "Track Name":"Lady Gaga",
+        "Artist Name":"Peso Pluma, Gabito Ballesteros & Junior H",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2022\/04\/pesopluma-2yo-180x180.jpg",
+        "Rank":64,
+        "Last Week Rank":44.0,
+        "Peak Rank":35,
+        "Weeks on Chart":16
+    },
+    {
+        "Track Name":"Peaches & Eggplants",
+        "Artist Name":"Young Nudy Featuring 21 Savage",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2018\/03\/youngnudy-k4c-180x180.jpg",
+        "Rank":65,
+        "Last Week Rank":39.0,
+        "Peak Rank":33,
+        "Weeks on Chart":19
+    },
+    {
+        "Track Name":"Lil Boo Thang",
+        "Artist Name":"Paul Russell",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/09\/paulrussell-000-lilboothang-ruh-180x180.jpg",
+        "Rank":66,
+        "Last Week Rank":51.0,
+        "Peak Rank":51,
+        "Weeks on Chart":4
+    },
+    {
+        "Track Name":"Get Him Back!",
+        "Artist Name":"Olivia Rodrigo",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2019\/11\/olivia-rodrigo-3wl-180x180.jpg",
+        "Rank":67,
+        "Last Week Rank":45.0,
+        "Peak Rank":11,
+        "Weeks on Chart":5
+    },
+    {
+        "Track Name":"Great Gatsby",
+        "Artist Name":"Rod Wave",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2019\/06\/rod-wave-qt2-180x180.jpg",
+        "Rank":68,
+        "Last Week Rank":41.0,
+        "Peak Rank":30,
+        "Weeks on Chart":4
+    },
+    {
+        "Track Name":"Bongos",
+        "Artist Name":"Cardi B & Megan Thee Stallion",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/09\/cardi-b-7bz-bongos-adf-180x180.jpg",
+        "Rank":69,
+        "Last Week Rank":46.0,
+        "Peak Rank":14,
+        "Weeks on Chart":5
+    },
+    {
+        "Track Name":"Un Preview",
+        "Artist Name":"Bad Bunny",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/10\/bad-bunny-c3m-unpreview-tyd-180x180.jpg",
+        "Rank":70,
+        "Last Week Rank":43.0,
+        "Peak Rank":43,
+        "Weeks on Chart":3
+    },
+    {
+        "Track Name":"Strangers",
+        "Artist Name":"Kenya Grace",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/09\/kenyagrace-q62-strangers-c1h-180x180.jpg",
+        "Rank":71,
+        "Last Week Rank":56.0,
+        "Peak Rank":56,
+        "Weeks on Chart":4
+    },
+    {
+        "Track Name":"Hey Driver",
+        "Artist Name":"Zach Bryan Featuring The War And Treaty",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2019\/09\/zachbryan-de1-180x180.jpg",
+        "Rank":72,
+        "Last Week Rank":47.0,
+        "Peak Rank":14,
+        "Weeks on Chart":7
+    },
+    {
+        "Track Name":"LaLa",
+        "Artist Name":"Myke Towers",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2019\/03\/myke-towers-g1s-180x180.jpg",
+        "Rank":73,
+        "Last Week Rank":54.0,
+        "Peak Rank":43,
+        "Weeks on Chart":14
+    },
+    {
+        "Track Name":"Stick Season",
+        "Artist Name":"Noah Kahan",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2022\/07\/noah-kahan-k6d-stickseason-gpe-180x180.jpg",
+        "Rank":74,
+        "Last Week Rank":80.0,
+        "Peak Rank":74,
+        "Weeks on Chart":2
+    },
+    {
+        "Track Name":"Lose Control",
+        "Artist Name":"Teddy Swims",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2021\/02\/teddyswims-95l-180x180.jpg",
+        "Rank":75,
+        "Last Week Rank":58.0,
+        "Peak Rank":58,
+        "Weeks on Chart":9
+    },
+    {
+        "Track Name":"She Calls Me Back",
+        "Artist Name":"Noah Kahan With Kacey Musgraves",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/06\/noah-kahan-k6d-shecallsmeback-x8n-180x180.jpg",
+        "Rank":76,
+        "Last Week Rank":null,
+        "Peak Rank":76,
+        "Weeks on Chart":1
+    },
+    {
+        "Track Name":"Turks & Caicos",
+        "Artist Name":"Rod Wave Featuring 21 Savage",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2019\/06\/rod-wave-qt2-180x180.jpg",
+        "Rank":77,
+        "Last Week Rank":52.0,
+        "Peak Rank":24,
+        "Weeks on Chart":4
+    },
+    {
+        "Track Name":"Everything I Love",
+        "Artist Name":"Morgan Wallen",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2016\/08\/morgan-wallen-nlu-180x180.jpg",
+        "Rank":78,
+        "Last Week Rank":61.0,
+        "Peak Rank":14,
+        "Weeks on Chart":33
+    },
+    {
+        "Track Name":"Boyz Don't Cry",
+        "Artist Name":"Rod Wave",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2019\/06\/rod-wave-qt2-180x180.jpg",
+        "Rank":79,
+        "Last Week Rank":50.0,
+        "Peak Rank":25,
+        "Weeks on Chart":4
+    },
+    {
+        "Track Name":"Segun Quien",
+        "Artist Name":"Maluma & Carin Leon",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/09\/maluma-xt7-segunquien-7bb-180x180.jpg",
+        "Rank":80,
+        "Last Week Rank":69.0,
+        "Peak Rank":69,
+        "Weeks on Chart":3
+    },
+    {
+        "Track Name":"Truck Bed",
+        "Artist Name":"HARDY",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/02\/hardy-tzj-truckbed-iha-180x180.jpg",
+        "Rank":81,
+        "Last Week Rank":63.0,
+        "Peak Rank":55,
+        "Weeks on Chart":17
+    },
+    {
+        "Track Name":"Better Place",
+        "Artist Name":"*NSYNC",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/10\/n-sync-j8x-betterplace-fb9-180x180.jpg",
+        "Rank":82,
+        "Last Week Rank":25.0,
+        "Peak Rank":25,
+        "Weeks on Chart":2
+    },
+    {
+        "Track Name":"Sarah's Place",
+        "Artist Name":"Zach Bryan Featuring Noah Kahan",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2019\/09\/zachbryan-de1-180x180.jpg",
+        "Rank":83,
+        "Last Week Rank":53.0,
+        "Peak Rank":14,
+        "Weeks on Chart":3
+    },
+    {
+        "Track Name":"SkeeYee",
+        "Artist Name":"Sexyy Red",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/08\/sexyyred-0ld-skeeyee-jvl-180x180.jpg",
+        "Rank":84,
+        "Last Week Rank":62.0,
+        "Peak Rank":62,
+        "Weeks on Chart":6
+    },
+    {
+        "Track Name":"500lbs",
+        "Artist Name":"Lil Tecca",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/08\/liltecca-bra-500lbs-vdh-180x180.jpg",
+        "Rank":85,
+        "Last Week Rank":70.0,
+        "Peak Rank":60,
+        "Weeks on Chart":3
+    },
+    {
+        "Track Name":"El Amor de Su Vida",
+        "Artist Name":"Grupo Frontera & Grupo Firme",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/08\/grupofrontera-an1-elamordesuvida-d7l-180x180.jpg",
+        "Rank":86,
+        "Last Week Rank":68.0,
+        "Peak Rank":68,
+        "Weeks on Chart":8
+    },
+    {
+        "Track Name":"Popular",
+        "Artist Name":"The Weeknd, Playboi Carti & Madonna",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/06\/the-weeknd-jlk-popular-0js-180x180.jpg",
+        "Rank":87,
+        "Last Week Rank":66.0,
+        "Peak Rank":43,
+        "Weeks on Chart":19
+    },
+    {
+        "Track Name":"Mi Ex Tenia Razon",
+        "Artist Name":"Karol G",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2016\/05\/karol-g-7vn-180x180.jpg",
+        "Rank":88,
+        "Last Week Rank":64.0,
+        "Peak Rank":22,
+        "Weeks on Chart":9
+    },
+    {
+        "Track Name":"On My Mama",
+        "Artist Name":"Victoria Monet",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/07\/victoria-monet-4qq-onmymama-z3u-180x180.jpg",
+        "Rank":89,
+        "Last Week Rank":76.0,
+        "Peak Rank":76,
+        "Weeks on Chart":4
+    },
+    {
+        "Track Name":"Can't Have Mine",
+        "Artist Name":"Dylan Scott",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2022\/03\/dylan-scott-poh-canthavemine-0dq-180x180.jpg",
+        "Rank":90,
+        "Last Week Rank":81.0,
+        "Peak Rank":81,
+        "Weeks on Chart":3
+    },
+    {
+        "Track Name":"Call Your Friends",
+        "Artist Name":"Rod Wave",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/08\/rodwave-qt2-callyourfriends-5d5-180x180.jpg",
+        "Rank":91,
+        "Last Week Rank":59.0,
+        "Peak Rank":18,
+        "Weeks on Chart":8
+    },
+    {
+        "Track Name":"Tourniquet",
+        "Artist Name":"Zach Bryan",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2019\/09\/zachbryan-de1-180x180.jpg",
+        "Rank":92,
+        "Last Week Rank":65.0,
+        "Peak Rank":20,
+        "Weeks on Chart":7
+    },
+    {
+        "Track Name":"Come See Me",
+        "Artist Name":"Rod Wave",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/09\/rodwave-qt2-comeseeme-mxe-180x180.jpg",
+        "Rank":93,
+        "Last Week Rank":60.0,
+        "Peak Rank":19,
+        "Weeks on Chart":6
+    },
+    {
+        "Track Name":"Standing Room Only",
+        "Artist Name":"Tim McGraw",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/03\/tim-mcgraw-8f1-standingroomonly-i6c-180x180.jpg",
+        "Rank":94,
+        "Last Week Rank":75.0,
+        "Peak Rank":61,
+        "Weeks on Chart":6
+    },
+    {
+        "Track Name":"Deli",
+        "Artist Name":"Ice Spice",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2022\/09\/icespice-ouz-180x180.jpg",
+        "Rank":95,
+        "Last Week Rank":71.0,
+        "Peak Rank":41,
+        "Weeks on Chart":12
+    },
+    {
+        "Track Name":"God Gave Me A Girl",
+        "Artist Name":"Russell Dickerson",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/01\/russell-dickerson-afe-godgavemeagirl-o2c-180x180.jpg",
+        "Rank":96,
+        "Last Week Rank":90.0,
+        "Peak Rank":90,
+        "Weeks on Chart":2
+    },
+    {
+        "Track Name":"Y Lloro",
+        "Artist Name":"Junior H",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2019\/11\/junior-h-og2-180x180.jpg",
+        "Rank":97,
+        "Last Week Rank":null,
+        "Peak Rank":97,
+        "Weeks on Chart":1
+    },
+    {
+        "Track Name":"Telekinesis",
+        "Artist Name":"Travis Scott Featuring SZA & Future",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2013\/07\/travis-scott-lu8-180x180.jpg",
+        "Rank":98,
+        "Last Week Rank":72.0,
+        "Peak Rank":26,
+        "Weeks on Chart":11
+    },
+    {
+        "Track Name":"Seven",
+        "Artist Name":"Jung Kook Featuring Latto",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/07\/jungkook-is6-seven-tth-180x180.jpg",
+        "Rank":99,
+        "Last Week Rank":57.0,
+        "Peak Rank":1,
+        "Weeks on Chart":13
+    },
+    {
+        "Track Name":"Stars Like Confetti",
+        "Artist Name":"Dustin Lynch",
+        "Image":"https:\/\/charts-static.billboard.com\/img\/2023\/02\/dustin-lynch-xmu-starslikeconfetti-h97-180x180.jpg",
+        "Rank":100,
+        "Last Week Rank":89.0,
+        "Peak Rank":89,
+        "Weeks on Chart":2
+    }
+]

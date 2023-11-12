@@ -1,0 +1,576 @@
+[
+  {
+    "Artist": "Jelly Roll",
+    "Song Title": "Need A Favor",
+    "Category": "Country",
+    "Price": "$1.29",
+    "Release Date": "2023-03-10T00:00:00-07:00"
+  },
+  {
+    "Artist": "Paul Russell",
+    "Song Title": "Lil Boo Thang",
+    "Category": "Pop",
+    "Price": "$1.29",
+    "Release Date": "2023-08-18T05:00:00-07:00"
+  },
+  {
+    "Artist": "Taylor Swift",
+    "Song Title": "Cruel Summer",
+    "Category": "Pop",
+    "Price": "$1.29",
+    "Release Date": "2019-08-23T00:00:00-07:00"
+  },
+  {
+    "Artist": "Zach Bryan",
+    "Song Title": "I Remember Everything (feat. Kacey Musgraves)",
+    "Category": "Country",
+    "Price": "$1.29",
+    "Release Date": "2023-01-27T04:00:00-07:00"
+  },
+  {
+    "Artist": "Jelly Roll",
+    "Song Title": "Save Me (with Lainey Wilson)",
+    "Category": "Country",
+    "Price": "$1.29",
+    "Release Date": "2022-01-07T04:00:00-07:00"
+  },
+  {
+    "Artist": "Teddy Swims",
+    "Song Title": "Lose Control",
+    "Category": "Pop",
+    "Price": "$1.29",
+    "Release Date": "2023-06-23T05:00:00-07:00"
+  },
+  {
+    "Artist": "Chris Stapleton",
+    "Song Title": "White Horse",
+    "Category": "Country",
+    "Price": "$1.29",
+    "Release Date": "2023-07-21T00:00:00-07:00"
+  },
+  {
+    "Artist": "Lauren Daigle",
+    "Song Title": "You Say",
+    "Category": "Christian",
+    "Price": "$1.29",
+    "Release Date": "2018-07-13T05:00:00-07:00"
+  },
+  {
+    "Artist": "blink-182",
+    "Song Title": "ONE MORE TIME",
+    "Category": "Rock",
+    "Price": "$1.29",
+    "Release Date": "2023-09-22T00:00:00-07:00"
+  },
+  {
+    "Artist": "Morgan Wallen",
+    "Song Title": "Thinkin\u2019 Bout Me",
+    "Category": "Country",
+    "Price": "$1.29",
+    "Release Date": "2023-03-03T04:00:00-07:00"
+  },
+  {
+    "Artist": "Oliver Anthony Music",
+    "Song Title": "Rich Men North of Richmond",
+    "Category": "Country",
+    "Price": "$0.99",
+    "Release Date": "2023-08-11T05:00:00-07:00"
+  },
+  {
+    "Artist": "Taylor Swift",
+    "Song Title": "Cruel Summer (Live from TS The Eras Tour)",
+    "Category": "Pop",
+    "Price": "$1.29",
+    "Release Date": "2023-10-19T00:00:00-07:00"
+  },
+  {
+    "Artist": "V",
+    "Song Title": "Slow Dancing (FRNK Remix)",
+    "Category": "K-Pop",
+    "Price": "$1.29",
+    "Release Date": "2023-10-23T00:00:00-07:00"
+  },
+  {
+    "Artist": "Tyla",
+    "Song Title": "Water",
+    "Category": "Pop",
+    "Price": "$1.29",
+    "Release Date": "2023-07-28T05:00:00-07:00"
+  },
+  {
+    "Artist": "Taylor Swift",
+    "Song Title": "Lover",
+    "Category": "Pop",
+    "Price": "$1.29",
+    "Release Date": "2019-08-16T00:00:00-07:00"
+  },
+  {
+    "Artist": "Luke Combs",
+    "Song Title": "Fast Car",
+    "Category": "Country",
+    "Price": "$1.29",
+    "Release Date": "2023-03-24T05:00:00-07:00"
+  },
+  {
+    "Artist": "HEARTSTEEL, League of Legends & BAEKHYUN",
+    "Song Title": "Paranoia (feat. tobi lou, \u00d8ZI & Cal Scruby)",
+    "Category": "Hip-Hop",
+    "Price": "$1.29",
+    "Release Date": "2023-10-23T05:00:00-07:00"
+  },
+  {
+    "Artist": "Taylor Swift",
+    "Song Title": "Anti-Hero",
+    "Category": "Pop",
+    "Price": "$1.29",
+    "Release Date": "2022-10-21T05:00:00-07:00"
+  },
+  {
+    "Artist": "The Citizens of Halloween",
+    "Song Title": "This Is Halloween",
+    "Category": "Soundtrack",
+    "Price": "$0.69",
+    "Release Date": "1993-01-01T04:00:00-07:00"
+  },
+  {
+    "Artist": "Trump Latinos & Jimmy Levy",
+    "Song Title": "Soldiers",
+    "Category": "Hip-Hop/Rap",
+    "Price": "$0.99",
+    "Release Date": "2023-10-19T00:00:00-07:00"
+  },
+  {
+    "Artist": "Dua Lipa",
+    "Song Title": "Dance The Night",
+    "Category": "Pop",
+    "Price": "$1.29",
+    "Release Date": "2023-05-27T00:00:00-07:00"
+  },
+  {
+    "Artist": "Ray Parker Jr.",
+    "Song Title": "Ghostbusters",
+    "Category": "Soundtrack",
+    "Price": "$1.29",
+    "Release Date": "1984-06-08T05:00:00-07:00"
+  },
+  {
+    "Artist": "Taylor Swift",
+    "Song Title": "...Ready For It?",
+    "Category": "Pop",
+    "Price": "$1.29",
+    "Release Date": "2017-09-03T05:00:00-07:00"
+  },
+  {
+    "Artist": "The Kid LAROI, Jung Kook & Central Cee",
+    "Song Title": "TOO MUCH",
+    "Category": "Pop",
+    "Price": "$1.29",
+    "Release Date": "2023-10-18T00:00:00-07:00"
+  },
+  {
+    "Artist": "Marshmello, P!nk & Sting",
+    "Song Title": "Dreaming",
+    "Category": "Pop",
+    "Price": "$1.29",
+    "Release Date": "N/A"
+  },
+  {
+    "Artist": "Miley Cyrus",
+    "Song Title": "Used To Be Young",
+    "Category": "Pop",
+    "Price": "$1.29",
+    "Release Date": "2023-08-25T00:00:00-07:00"
+  },
+  {
+    "Artist": "Lainey Wilson",
+    "Song Title": "Watermelon Moonshine",
+    "Category": "Country",
+    "Price": "$1.29",
+    "Release Date": "2022-08-12T05:00:00-07:00"
+  },
+  {
+    "Artist": "V",
+    "Song Title": "Slow Dancing (Cautious Clay Remix)",
+    "Category": "K-Pop",
+    "Price": "$1.29",
+    "Release Date": "2023-10-23T00:00:00-07:00"
+  },
+  {
+    "Artist": "Hans Zimmer",
+    "Song Title": "Time",
+    "Category": "Soundtrack",
+    "Price": "$0.69",
+    "Release Date": "2010-07-09T00:00:00-07:00"
+  },
+  {
+    "Artist": "Jelly Roll",
+    "Song Title": "Save Me",
+    "Category": "Rap",
+    "Price": "$1.29",
+    "Release Date": "2020-06-25T05:00:00-07:00"
+  },
+  {
+    "Artist": "Omarion",
+    "Song Title": "Serious",
+    "Category": "R&B/Soul",
+    "Price": "$0.69",
+    "Release Date": "2023-04-14T05:00:00-07:00"
+  },
+  {
+    "Artist": "Chris Stapleton",
+    "Song Title": "It Takes A Woman",
+    "Category": "Country",
+    "Price": "$1.29",
+    "Release Date": "2023-10-13T00:00:00-07:00"
+  },
+  {
+    "Artist": "Sebasti\u00e1n Yatra & John Legend",
+    "Song Title": "Tacones Rojos",
+    "Category": "Pop Latino",
+    "Price": "$1.29",
+    "Release Date": "2022-03-23T05:00:00-07:00"
+  },
+  {
+    "Artist": "Prince & The Revolution",
+    "Song Title": "Kiss",
+    "Category": "Soundtrack",
+    "Price": "$0.69",
+    "Release Date": "1986-02-05T00:00:00-07:00"
+  },
+  {
+    "Artist": "Chris Brown",
+    "Song Title": "Sensational (feat. Davido & Lojay)",
+    "Category": "R&B/Soul",
+    "Price": "$1.29",
+    "Release Date": "2023-10-20T00:00:00-07:00"
+  },
+  {
+    "Artist": "Chris Stapleton",
+    "Song Title": "Tennessee Whiskey",
+    "Category": "Country",
+    "Price": "$1.29",
+    "Release Date": "2015-04-28T05:00:00-07:00"
+  },
+  {
+    "Artist": "Omarion",
+    "Song Title": "Serious (Sped Up Version)",
+    "Category": "R&B/Soul",
+    "Price": "$0.69",
+    "Release Date": "2023-07-28T05:00:00-07:00"
+  },
+  {
+    "Artist": "Adam Sandler",
+    "Song Title": "Grow Old With You",
+    "Category": "Soundtrack",
+    "Price": "$0.69",
+    "Release Date": "1998-07-21T05:00:00-07:00"
+  },
+  {
+    "Artist": "Fall Out Boy",
+    "Song Title": "We Didn\u2019t Start The Fire",
+    "Category": "Alternative",
+    "Price": "$1.29",
+    "Release Date": "2023-03-24T05:00:00-07:00"
+  },
+  {
+    "Artist": "Rascal Flatts",
+    "Song Title": "Life Is a Highway",
+    "Category": "Soundtrack",
+    "Price": "$0.69",
+    "Release Date": "2000-06-06T05:00:00-07:00"
+  },
+  {
+    "Artist": "Taylor Swift",
+    "Song Title": "The Man",
+    "Category": "Pop",
+    "Price": "$1.29",
+    "Release Date": "2019-08-23T00:00:00-07:00"
+  },
+  {
+    "Artist": "David Kushner",
+    "Song Title": "Daylight",
+    "Category": "Pop",
+    "Price": "$1.29",
+    "Release Date": "2023-04-14T05:00:00-07:00"
+  },
+  {
+    "Artist": "Taylor Swift",
+    "Song Title": "You Need To Calm Down",
+    "Category": "Pop",
+    "Price": "$1.29",
+    "Release Date": "2019-06-14T00:00:00-07:00"
+  },
+  {
+    "Artist": "Bailey Zimmerman",
+    "Song Title": "Religiously",
+    "Category": "Country",
+    "Price": "$1.29",
+    "Release Date": "2023-03-17T00:00:00-07:00"
+  },
+  {
+    "Artist": "Taylor Swift",
+    "Song Title": "Look What You Made Me Do",
+    "Category": "Pop",
+    "Price": "$1.29",
+    "Release Date": "2017-08-24T05:00:00-07:00"
+  },
+  {
+    "Artist": "The Rolling Stones",
+    "Song Title": "Angry",
+    "Category": "Rock",
+    "Price": "$1.29",
+    "Release Date": "2023-09-05T00:00:00-07:00"
+  },
+  {
+    "Artist": "Taylor Swift",
+    "Song Title": "Shake It Off",
+    "Category": "Pop",
+    "Price": "$1.29",
+    "Release Date": "2014-01-01T04:00:00-07:00"
+  },
+  {
+    "Artist": "Phil Collins",
+    "Song Title": "You'll Be In My Heart",
+    "Category": "Soundtrack",
+    "Price": "$0.69",
+    "Release Date": "1999-01-01T04:00:00-07:00"
+  },
+  {
+    "Artist": "Bette Midler",
+    "Song Title": "Wind Beneath My Wings",
+    "Category": "Soundtrack",
+    "Price": "$0.69",
+    "Release Date": "1988-01-01T00:00:00-07:00"
+  },
+  {
+    "Artist": "Bobby \"Boris\" Pickett",
+    "Song Title": "Monster Mash",
+    "Category": "Halloween",
+    "Price": "$0.99",
+    "Release Date": "1962-10-09T00:00:00-07:00"
+  },
+  {
+    "Artist": "The Rolling Stones & Lady Gaga",
+    "Song Title": "Sweet Sounds Of Heaven",
+    "Category": "Rock",
+    "Price": "$1.29",
+    "Release Date": "2023-09-27T00:00:00-07:00"
+  },
+  {
+    "Artist": "Creed",
+    "Song Title": "Higher",
+    "Category": "Hard Rock",
+    "Price": "$1.29",
+    "Release Date": "1999-08-24T05:00:00-07:00"
+  },
+  {
+    "Artist": "Dustin Lynch",
+    "Song Title": "Chevrolet (feat. Jelly Roll)",
+    "Category": "Country",
+    "Price": "$1.29",
+    "Release Date": "2023-09-15T05:00:00-07:00"
+  },
+  {
+    "Artist": "Omarion",
+    "Song Title": "Serious (Vocals)",
+    "Category": "R&B/Soul",
+    "Price": "$0.69",
+    "Release Date": "2023-07-28T05:00:00-07:00"
+  },
+  {
+    "Artist": "Zach Bryan",
+    "Song Title": "Something in the Orange (Z&E's Version)",
+    "Category": "Country",
+    "Price": "$1.29",
+    "Release Date": "2022-04-22T00:00:00-07:00"
+  },
+  {
+    "Artist": "Bette Midler",
+    "Song Title": "The Rose",
+    "Category": "Soundtrack",
+    "Price": "$0.69",
+    "Release Date": "1979-01-01T00:00:00-07:00"
+  },
+  {
+    "Artist": "Taylor Swift",
+    "Song Title": "You Belong With Me (Taylor\u2019s Version)",
+    "Category": "Country",
+    "Price": "$1.29",
+    "Release Date": "2021-04-09T05:00:00-07:00"
+  },
+  {
+    "Artist": "Omarion",
+    "Song Title": "Serious",
+    "Category": "R&B/Soul",
+    "Price": "$0.69",
+    "Release Date": "2023-04-14T05:00:00-07:00"
+  },
+  {
+    "Artist": "Michael Jackson",
+    "Song Title": "Thriller",
+    "Category": "Pop",
+    "Price": "$1.29",
+    "Release Date": "1982-11-30T00:00:00-07:00"
+  },
+  {
+    "Artist": "Billie Eilish",
+    "Song Title": "What Was I Made For? [From The Motion Picture \"Barbie\"]",
+    "Category": "Alternative",
+    "Price": "$1.29",
+    "Release Date": "2023-07-13T05:00:00-07:00"
+  },
+  {
+    "Artist": "Omarion",
+    "Song Title": "Serious",
+    "Category": "R&B/Soul",
+    "Price": "$0.69",
+    "Release Date": "2023-04-14T05:00:00-07:00"
+  },
+  {
+    "Artist": "Rema & Selena Gomez",
+    "Song Title": "Calm Down",
+    "Category": "Afrobeats",
+    "Price": "$1.29",
+    "Release Date": "2022-03-25T05:00:00-07:00"
+  },
+  {
+    "Artist": "Elevation Worship",
+    "Song Title": "Praise (feat. Brandon Lake, Chris Brown & Chandler Moore)",
+    "Category": "Christian",
+    "Price": "$1.29",
+    "Release Date": "2023-05-19T05:00:00-07:00"
+  },
+  {
+    "Artist": "Los Lobos",
+    "Song Title": "La Bamba",
+    "Category": "Soundtrack",
+    "Price": "$0.69",
+    "Release Date": "1987-01-01T04:00:00-07:00"
+  },
+  {
+    "Artist": "Miley Cyrus",
+    "Song Title": "Flowers",
+    "Category": "Pop",
+    "Price": "$1.29",
+    "Release Date": "2023-01-12T00:00:00-07:00"
+  },
+  {
+    "Artist": "Taylor Swift",
+    "Song Title": "Love Story (Taylor\u2019s Version)",
+    "Category": "Country",
+    "Price": "$1.29",
+    "Release Date": "2021-02-11T00:00:00-07:00"
+  },
+  {
+    "Artist": "Sia",
+    "Song Title": "Unstoppable",
+    "Category": "Pop",
+    "Price": "$1.29",
+    "Release Date": "2016-01-21T00:00:00-07:00"
+  },
+  {
+    "Artist": "Taylor Swift",
+    "Song Title": "willow",
+    "Category": "Alternative",
+    "Price": "$1.29",
+    "Release Date": "2020-12-11T04:00:00-07:00"
+  },
+  {
+    "Artist": "*NSYNC & Justin Timberlake",
+    "Song Title": "Better Place (From TROLLS Band Together)",
+    "Category": "Pop",
+    "Price": "$1.29",
+    "Release Date": "2023-09-29T00:00:00-07:00"
+  },
+  {
+    "Artist": "Riley Clemmons",
+    "Song Title": "This Side Of Heaven",
+    "Category": "Christian",
+    "Price": "$1.29",
+    "Release Date": "2023-09-22T05:00:00-07:00"
+  },
+  {
+    "Artist": "Kenya Grace",
+    "Song Title": "Strangers",
+    "Category": "Dance",
+    "Price": "$1.29",
+    "Release Date": "2023-09-01T05:00:00-07:00"
+  },
+  {
+    "Artist": "Taylor Swift",
+    "Song Title": "Blank Space",
+    "Category": "Pop",
+    "Price": "$1.29",
+    "Release Date": "2014-01-01T04:00:00-07:00"
+  },
+  {
+    "Artist": "Michael Jackson",
+    "Song Title": "Thriller (2003 Edit)",
+    "Category": "Pop",
+    "Price": "$1.29",
+    "Release Date": "2003-11-18T00:00:00-07:00"
+  },
+  {
+    "Artist": "Toby Keith",
+    "Song Title": "Don't Let the Old Man In",
+    "Category": "Country",
+    "Price": "$1.29",
+    "Release Date": "2018-12-07T04:00:00-07:00"
+  },
+  {
+    "Artist": "Chayce Beckham",
+    "Song Title": "23",
+    "Category": "Country",
+    "Price": "$1.29",
+    "Release Date": "2021-05-14T05:00:00-07:00"
+  },
+  {
+    "Artist": "Brandon Lake",
+    "Song Title": "Gratitude",
+    "Category": "Christian",
+    "Price": "$1.29",
+    "Release Date": "2020-08-28T05:00:00-07:00"
+  },
+  {
+    "Artist": "Katy Nichole",
+    "Song Title": "In Jesus Name (God Of Possible)",
+    "Category": "Christian",
+    "Price": "$1.29",
+    "Release Date": "2022-01-07T04:00:00-07:00"
+  },
+  {
+    "Artist": "Tyler Childers",
+    "Song Title": "In Your Love",
+    "Category": "Country",
+    "Price": "$1.29",
+    "Release Date": "2023-07-18T00:00:00-07:00"
+  },
+  {
+    "Artist": "Chris Stapleton",
+    "Song Title": "Think I'm In Love With You",
+    "Category": "Country",
+    "Price": "$1.29",
+    "Release Date": "2023-09-08T00:00:00-07:00"
+  },
+  {
+    "Artist": "Bobby \"Boris\" Pickett & The Crypt-Kickers",
+    "Song Title": "Monster Mash",
+    "Category": "Halloween",
+    "Price": "$1.29",
+    "Release Date": "1962-09-01T00:00:00-07:00"
+  },
+  {
+    "Artist": "Adele",
+    "Song Title": "Make You Feel My Love",
+    "Category": "Pop",
+    "Price": "$1.29",
+    "Release Date": "2008-01-28T04:00:00-07:00"
+  },
+  {
+    "Artist": "SEVENTEEN",
+    "Song Title": "God of Music",
+    "Category": "K-Pop",
+    "Price": "$0.69",
+    "Release Date": "2023-10-23T05:00:00-07:00"
+  }
+]
