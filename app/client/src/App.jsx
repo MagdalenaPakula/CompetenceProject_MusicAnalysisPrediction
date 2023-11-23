@@ -28,7 +28,7 @@ function App() {
   const handlePrediction = async () => {
     setStatus("calculating_metrics");
 
-    const res = await fetch("http://127.0.0.1:8000/api/predict_popularity", {
+    const res = await fetch("/api/predict_popularity", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
