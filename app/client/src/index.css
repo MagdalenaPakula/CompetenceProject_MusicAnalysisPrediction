@@ -45,6 +45,13 @@ button {
   border-radius: 0.25rem;
   cursor: pointer;
   color: black;
+  transition-duration: 0.3s;
+  transition-property: background-color;
+}
+
+button:disabled {
+  background-color: #5e5e5e;
+  cursor: not-allowed;
 }
 
 .loader {
@@ -63,6 +70,11 @@ button {
 .bold {
   color: #42a676;
   font-weight: 700;
+}
+
+.italic {
+  color: #42a676;
+  font-style: italic;
 }
 
 @keyframes shadowRolling {

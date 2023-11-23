@@ -100,7 +100,9 @@ function App() {
           <option value="classical">Classical</option>
           <option value="jazz">Jazz</option>
         </select>
-        <button onClick={handlePrediction}>Predict</button>
+        <button onClick={handlePrediction} disabled={title.length < 3}>
+          Predict
+        </button>
       </div>
       <div
         className="loader"
@@ -138,8 +140,9 @@ function App() {
       </BarChart>
       {response.title && status === "stale" && (
         <p>
-          Predicted popularity of <span className="bold">{response.title}</span>{" "}
-          is <span className="bold">{response.popularity}</span>.
+          Predicted popularity of{" "}
+          <span className="italic bold">&quot;{response.title}&quot;</span> is{" "}
+          <span className="bold">{response.popularity}</span>.
         </p>
       )}
       {!response.title && status === "stale" && <p className="bold">‎</p>}
