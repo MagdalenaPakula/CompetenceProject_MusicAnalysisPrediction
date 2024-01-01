@@ -25,6 +25,20 @@ function App() {
   const [title, setTitle] = useState("");
   const [genre, setGenre] = useState("pop");
 
+  const search = async () => {
+    const res = await fetch("", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        title: title,
+      }),
+    }).then((res) => res.json());
+
+    console.log(res);
+  };
+
   const handlePrediction = async () => {
     setStatus("calculating_metrics");
 
@@ -100,6 +114,9 @@ function App() {
           <option value="classical">Classical</option>
           <option value="jazz">Jazz</option>
         </select>
+        <button onClick={search} disabled={title.length < 3}>
+          Search
+        </button>
         <button onClick={handlePrediction} disabled={title.length < 3}>
           Predict
         </button>

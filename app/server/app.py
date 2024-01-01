@@ -6,6 +6,7 @@ import io
 import numpy as np
 from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS, cross_origin
+import requests
 
 app = Flask(__name__, static_folder='frontend')
 CORS(app, resources={r"/*": {"origins": "*"}})
@@ -22,6 +23,15 @@ def generate_pseudorandom_number(input_string):
     mapped_value = hash_value % 101
     
     return mapped_value
+
+
+@app.route('/api/search', methods=['POST'])
+def search():
+    title = request.json.get('title')
+
+    r = requests.get("https://api.spotify.com/v1/search", params={type: 'track', q: title}, headers={'Authorization': 'Basic ZDQ1ODAyNTZiNGMxNGQ4Yjk1YmQ1MWViZGRhYTQ5MzI6Y2NlMjI0YTQ2OTMwNDU2ZjgyNzQwNmJkZmQ4YjAzNTk='})
+
+    return r
 
 
 @app.route('/api/predict_popularity', methods=['POST'])
