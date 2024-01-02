@@ -52,21 +52,21 @@ def search():
 def echo():
     track_id = request.json.get('id')
     spotify = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id='d4580256b4c14d8b95bd51ebddaa4932', client_secret='cce224a46930456f827406bdfd8b0359'))
-    result = spotify.track(track_id)
+    popularity = spotify.track(track_id)["popularity"]
+    result = spotify.audio_features([track_id])[0]
 
     response = jsonify({
-        'popularity': generate_pseudorandom_number("title"+genre+title),
-        'title': result["name"],
+        'popularity': popularity,
         'metrics': {
-            'danceability': generate_pseudorandom_number("danceability"+genre+title),
-            'energy': generate_pseudorandom_number("energy"+genre+title),
-            'loudness': generate_pseudorandom_number("loudness"+genre+title),
-            'speechiness': generate_pseudorandom_number("speechiness"+genre+title),
-            'acousticness': generate_pseudorandom_number("acousticness"+genre+title),
-            'instrumentalness': generate_pseudorandom_number("instrumentalness"+genre+title),
-            'liveness': generate_pseudorandom_number("liveness"+genre+title),
-            'valence': generate_pseudorandom_number("valence"+genre+title),
-            'tempo': generate_pseudorandom_number("tempo"+genre+title)
+            'danceability': result["danceability"],
+            'energy': result["energy"],
+            'loudness': result["loudness"],
+            'speechiness': result["speechiness"],
+            'acousticness': result["acousticness"],
+            'instrumentalness': result["instrumentalness"],
+            'liveness': result["liveness"],
+            'valence': result["valence"],
+            'tempo': result["tempo"]
         }
     })
 
