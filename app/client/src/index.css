@@ -42,6 +42,8 @@ body {
   border-radius: 0.5rem;
   border: 1px solid rgb(119, 119, 119);
   flex: 1;
+  background-color: #333333;
+  color: #fff;
 }
 
 button {
@@ -156,6 +158,10 @@ button:disabled {
 .track__audio {
   height: 48px;
   z-index: 1;
+}
+
+.track__audio::-webkit-media-controls-panel {
+  background-color: #42a676;
 }
 
 .track__img {

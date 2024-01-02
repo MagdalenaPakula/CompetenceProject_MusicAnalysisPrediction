@@ -16,11 +16,10 @@ CORS(app, resources={r"/*": {"origins": "*"}})
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 
-# TODO: Implement when we have model
 # @app.before_first_request
 # def get_model():
 #     global model
-#     model = tf.keras.models.load_model('./model/digits_recognition')
+#     model = tf.keras.models.load_model('./model/song_popularity_prediction')
 
 def generate_pseudorandom_number(input_string):
     hash_value = hash(input_string)
