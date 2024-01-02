@@ -42,7 +42,7 @@ def search():
             results["tracks"]["items"]))
         })
 
-    return results["tracks"]["items"][0]["name"] + str(results["tracks"]["items"][0]["popularity"])
+    return response
 
 
 @app.route('/api/predict_popularity', methods=['POST'])
