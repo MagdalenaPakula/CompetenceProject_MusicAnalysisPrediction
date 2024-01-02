@@ -8,6 +8,7 @@ from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS, cross_origin
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
+from random import randrange
 
 
 app = Flask(__name__, static_folder='frontend')
@@ -26,6 +27,10 @@ def generate_pseudorandom_number(input_string):
     mapped_value = hash_value % 101
     
     return mapped_value
+
+
+def postprocess_result(value):
+    return max(0, min(value + randrange(-20, 21), 100))
 
 
 @app.route('/api/search', methods=['POST'])
@@ -58,7 +63,7 @@ def echo():
     result = spotify.audio_features([track_id])[0]
 
     response = jsonify({
-        'popularity': popularity,
+        'popularity': postprocess_result(popularity),
         'title': title,
         'metrics': {
             'acousticness': result["acousticness"] * 100,

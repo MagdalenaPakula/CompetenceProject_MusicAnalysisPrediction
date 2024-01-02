@@ -33,6 +33,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 0.5rem;
+  width: 1000px;
 }
 
 .searchbar {
@@ -40,6 +41,7 @@ body {
   padding: 0.5rem;
   border-radius: 0.5rem;
   border: 1px solid rgb(119, 119, 119);
+  flex: 1;
 }
 
 button {
@@ -178,5 +180,5 @@ button:disabled {
 }
 
 .track--empty {
-  height: 64px;
+  height: 80px;
 }
