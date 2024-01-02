@@ -34,7 +34,8 @@ def search():
     spotify = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id='d4580256b4c14d8b95bd51ebddaa4932', client_secret='cce224a46930456f827406bdfd8b0359'))
     results = spotify.search(q="track:" + title, type='track')
 
-    response = jsonify({'tracks': map(lambda t : {'name': t["name"], authors: ", ".join(map(lamda a : a["name"], t["artists"]["items"]))}, results["tracks"]["items"])})
+    response = jsonify({
+        'tracks': map(lambda t : {'name': t["name"], authors: ", ".join(map(lambda a : a["name"], t["artists"]["items"]))},results["tracks"]["items"])})
 
     return results["tracks"]["items"][0]["name"] + str(results["tracks"]["items"][0]["popularity"])
 
