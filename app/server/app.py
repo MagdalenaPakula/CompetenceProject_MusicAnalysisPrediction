@@ -31,7 +31,7 @@ def generate_pseudorandom_number(input_string):
 @app.route('/api/search', methods=['POST'])
 def search():
     title = request.json.get('title')
-    spotify = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=d4580256b4c14d8b95bd51ebddaa4932, client_secret=cce224a46930456f827406bdfd8b0359))
+    spotify = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id='d4580256b4c14d8b95bd51ebddaa4932', client_secret='cce224a46930456f827406bdfd8b0359'))
     results = spotify.search(q=title, type='track')
 
     return results[0]["name"]
