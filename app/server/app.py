@@ -32,12 +32,14 @@ def generate_pseudorandom_number(input_string):
 def search():
     title = request.json.get('title')
     spotify = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id='d4580256b4c14d8b95bd51ebddaa4932', client_secret='cce224a46930456f827406bdfd8b0359'))
-    results = spotify.search(q="track:" + title, type='track')
+    results = spotify.search(q="track:" + title, type='track', limit=5)
 
     response = jsonify({
         'tracks': list(map(lambda t : {
                 'name': t["name"],
-                'authors': ", ".join(list(map(lambda a : str(a["name"]), t["artists"])))
+                'authors': ", ".join(list(map(lambda a : str(a["name"]), t["artists"]))),
+                'id': t["id"],
+                'img': t["album"]["images"][0]["url"]
             }, 
             results["tracks"]["items"]))
         })
