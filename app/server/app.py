@@ -6,11 +6,14 @@ import io
 import numpy as np
 from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS, cross_origin
-import requests
+import spotipy
+from spotipy.oauth2 import SpotifyClientCredentials
+
 
 app = Flask(__name__, static_folder='frontend')
 CORS(app, resources={r"/*": {"origins": "*"}})
 app.config['CORS_HEADERS'] = 'Content-Type'
+
 
 # TODO: Implement when we have model
 # @app.before_first_request
@@ -28,11 +31,10 @@ def generate_pseudorandom_number(input_string):
 @app.route('/api/search', methods=['POST'])
 def search():
     title = request.json.get('title')
+    spotify = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=d4580256b4c14d8b95bd51ebddaa4932, client_secret=cce224a46930456f827406bdfd8b0359))
+    results = spotify.search(q=title, type='track')
 
-    bearer = requests.post("https://api.spotify.com/api/token", data={"grant_type": "client_credentials"}, headers={'Authorization': 'Basic ZDQ1ODAyNTZiNGMxNGQ4Yjk1YmQ1MWViZGRhYTQ5MzI6Y2NlMjI0YTQ2OTMwNDU2ZjgyNzQwNmJkZmQ4YjAzNTk='})
-    r = requests.get("https://api.spotify.com/v1/search", params={'type': 'track', 'q': title}, headers={'Authorization': 'Basic ZDQ1ODAyNTZiNGMxNGQ4Yjk1YmQ1MWViZGRhYTQ5MzI6Y2NlMjI0YTQ2OTMwNDU2ZjgyNzQwNmJkZmQ4YjAzNTk='})
-
-    return bearer.text
+    return results[0]["name"]
 
 
 @app.route('/api/predict_popularity', methods=['POST'])
