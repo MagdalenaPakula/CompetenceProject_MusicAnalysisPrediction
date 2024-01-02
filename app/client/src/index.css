@@ -19,9 +19,6 @@ body {
 }
 
 .page-container {
-  width: 100svw;
-  height: 100svh;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,6 +33,13 @@ body {
   display: flex;
   flex-direction: row;
   gap: 0.5rem;
+}
+
+.searchbar {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(119, 119, 119);
 }
 
 button {

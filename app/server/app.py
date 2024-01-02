@@ -36,7 +36,7 @@ def search():
 
     response = jsonify({
         'tracks': list(map(lambda t : {
-                'name': t["name"],
+                'title': t["name"],
                 'artists': ", ".join(list(map(lambda a : str(a["name"]), t["artists"]))),
                 'id': t["id"],
                 'img': t["album"]["images"][0]["url"],
@@ -50,19 +50,25 @@ def search():
 
 @app.route('/api/predict_popularity', methods=['POST'])
 def echo():
-    genre = request.json.get('genre')
-    title = request.json.get('title')
-    response = jsonify({'popularity': generate_pseudorandom_number("title"+genre+title), 'title': title, 'metrics': {
-        'danceability': generate_pseudorandom_number("danceability"+genre+title),
-        'energy': generate_pseudorandom_number("energy"+genre+title),
-        'loudness': generate_pseudorandom_number("loudness"+genre+title),
-        'speechiness': generate_pseudorandom_number("speechiness"+genre+title),
-        'acousticness': generate_pseudorandom_number("acousticness"+genre+title),
-        'instrumentalness': generate_pseudorandom_number("instrumentalness"+genre+title),
-        'liveness': generate_pseudorandom_number("liveness"+genre+title),
-        'valence': generate_pseudorandom_number("valence"+genre+title),
-        'tempo': generate_pseudorandom_number("tempo"+genre+title)
-    }})
+    track_id = request.json.get('id')
+    spotify = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id='d4580256b4c14d8b95bd51ebddaa4932', client_secret='cce224a46930456f827406bdfd8b0359'))
+    result = spotify.track(track_id)
+
+    response = jsonify({
+        'popularity': generate_pseudorandom_number("title"+genre+title),
+        'title': result["name"],
+        'metrics': {
+            'danceability': generate_pseudorandom_number("danceability"+genre+title),
+            'energy': generate_pseudorandom_number("energy"+genre+title),
+            'loudness': generate_pseudorandom_number("loudness"+genre+title),
+            'speechiness': generate_pseudorandom_number("speechiness"+genre+title),
+            'acousticness': generate_pseudorandom_number("acousticness"+genre+title),
+            'instrumentalness': generate_pseudorandom_number("instrumentalness"+genre+title),
+            'liveness': generate_pseudorandom_number("liveness"+genre+title),
+            'valence': generate_pseudorandom_number("valence"+genre+title),
+            'tempo': generate_pseudorandom_number("tempo"+genre+title)
+        }
+    })
 
     # if (genre and title):
     #     response = jsonify({'prediction': str(np.argmax(prediction[0])), 'probability': str(np.max(prediction[0]))})

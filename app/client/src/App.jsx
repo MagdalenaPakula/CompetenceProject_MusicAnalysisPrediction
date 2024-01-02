@@ -72,9 +72,9 @@ function App() {
   });
   const [status, setStatus] = useState("stale");
   const [title, setTitle] = useState("");
-  const [genre, setGenre] = useState("pop");
 
   const search = async () => {
+    setActiveId("");
     const res = await fetch("/api/search", {
       method: "POST",
       headers: {
@@ -97,8 +97,7 @@ function App() {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        genre: genre,
-        title: title,
+        id: activeId,
       }),
     }).then((res) => res.json());
 
@@ -143,30 +142,16 @@ function App() {
     <main className="page-container">
       <div className="input-container">
         <input
+          className="searchbar"
           onChange={(e) => {
             setTitle(e.target.value);
           }}
           value={title}
         />
-        <select
-          onChange={(e) => {
-            setGenre(e.target.value);
-          }}
-          value={genre}
-        >
-          <option value="pop">Pop</option>
-          <option value="rock">Rock</option>
-          <option value="hiphop">Hip-hop/Rap</option>
-          <option value="electronic">Electronic</option>
-          <option value="country">Country</option>
-          <option value="rb">R&B</option>
-          <option value="classical">Classical</option>
-          <option value="jazz">Jazz</option>
-        </select>
         <button onClick={search} disabled={title.length < 3}>
           Search
         </button>
-        <button onClick={handlePrediction} disabled={title.length < 3}>
+        <button onClick={handlePrediction} disabled={activeId === ""}>
           Predict
         </button>
       </div>
