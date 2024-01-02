@@ -35,7 +35,11 @@ def search():
     results = spotify.search(q="track:" + title, type='track')
 
     response = jsonify({
-        'tracks': list(map(lambda t : {'name': t["name"], authors: ", ".join(list(map(lambda a : a["name"], t["artists"]["items"])))},results["tracks"]["items"]))
+        'tracks': list(map(lambda t : {
+                'name': t["name"],
+                authors: ", ".join(list(map(lambda a : a["name"], t["artists"]["items"])))
+            }, 
+            results["tracks"]["items"]))
         })
 
     return results["tracks"]["items"][0]["name"] + str(results["tracks"]["items"][0]["popularity"])
