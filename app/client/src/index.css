@@ -115,3 +115,56 @@ button:disabled {
       200px 0 #00000000;
   }
 }
+
+.track-list {
+  background-color: #333333;
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 1000px;
+}
+
+.track-list > *:not(:last-child) {
+  border-bottom: 1px solid rgb(83, 83, 83);
+}
+
+.track {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.track--active {
+  background-color: rgba(66, 166, 118, 0.3);
+}
+
+.track:hover {
+  background-color: rgba(66, 166, 118, 0.5);
+}
+
+.track__audio {
+  height: 48px;
+  z-index: 1;
+}
+
+.track__img {
+  height: 48px;
+  width: 48px;
+}
+
+.track__title {
+  font-weight: 700;
+}
+
+.track__artists {
+  opacity: 0.8;
+}
+
+.track--empty {
+  height: 64px;
+}

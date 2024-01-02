@@ -5,8 +5,57 @@ function timeout(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+function Track({ img, title, artists, preview, active, handleClick }) {
+  return (
+    <div
+      onClick={handleClick}
+      className={`track ${active ? " track--active" : ""}`}
+    >
+      <img src={img} className="track__img" />
+      <p className="track__title">{title}</p>
+      <p className="track__artists">{artists}</p>
+      <audio className="track__audio" src={preview} controls />
+    </div>
+  );
+}
+
+function TrackList({ tracks, handleSelection, activeId }) {
+  const track = [];
+  for (let i = 0; i < 5; i++) {
+    if (tracks[i]) {
+      track.push(tracks[i]);
+    } else {
+      track.push(null);
+    }
+  }
+
+  return (
+    <div className="track-list">
+      {track.map((row, idx) =>
+        row !== null ? (
+          <Track
+            img={row.img}
+            title={row.title}
+            artists={row.artists}
+            preview={row.preview}
+            active={activeId === row.id}
+            handleClick={() => {
+              handleSelection(row.id);
+            }}
+            key={row.title}
+          />
+        ) : (
+          <div className="track--empty" key={idx} />
+        )
+      )}
+    </div>
+  );
+}
+
 function App() {
-  const [response, setResponse] = useState({
+  const [activeId, setActiveId] = useState("");
+  const [searchResponse, setSearchResponse] = useState({ tracks: [] });
+  const [predictResponse, setPredictResponse] = useState({
     title: "",
     popularity: 0,
     metrics: {
@@ -36,7 +85,7 @@ function App() {
       }),
     }).then((res) => res.json());
 
-    console.log(res);
+    setSearchResponse(res);
   };
 
   const handlePrediction = async () => {
@@ -55,7 +104,7 @@ function App() {
 
     await timeout(1500);
     setStatus("calculating_popularity");
-    setResponse({
+    setPredictResponse({
       popularity: res.popularity,
       title: "",
       metrics: {
@@ -73,7 +122,7 @@ function App() {
 
     await timeout(3000);
     setStatus("stale");
-    setResponse({
+    setPredictResponse({
       popularity: res.popularity,
       title: res.title,
       metrics: {
@@ -121,28 +170,35 @@ function App() {
           Predict
         </button>
       </div>
+      <TrackList
+        tracks={searchResponse.tracks}
+        activeId={activeId}
+        handleSelection={(id) => {
+          setActiveId(id);
+        }}
+      />
       <div
         className="loader"
         style={{ opacity: status === "stale" ? 0 : 1 }}
       ></div>
       <BarChart
-        width={700}
+        width={1000}
         height={500}
         margin={{ top: 0, right: 0, left: 0, bottom: 100 }}
         style={{ opacity: status !== "calculating_metrics" ? 1 : 0.2 }}
         data={[
-          { name: "Danceability", value: response.metrics.danceability },
-          { name: "Energy", value: response.metrics.energy },
-          { name: "Loudness", value: response.metrics.loudness },
-          { name: "Speechiness", value: response.metrics.speechiness },
-          { name: "Acousticness", value: response.metrics.acousticness },
+          { name: "Danceability", value: predictResponse.metrics.danceability },
+          { name: "Energy", value: predictResponse.metrics.energy },
+          { name: "Loudness", value: predictResponse.metrics.loudness },
+          { name: "Speechiness", value: predictResponse.metrics.speechiness },
+          { name: "Acousticness", value: predictResponse.metrics.acousticness },
           {
             name: "Instrumentalness",
-            value: response.metrics.instrumentalness,
+            value: predictResponse.metrics.instrumentalness,
           },
-          { name: "Liveness", value: response.metrics.liveness },
-          { name: "Valence", value: response.metrics.valence },
-          { name: "Tempo", value: response.metrics.tempo },
+          { name: "Liveness", value: predictResponse.metrics.liveness },
+          { name: "Valence", value: predictResponse.metrics.valence },
+          { name: "Tempo", value: predictResponse.metrics.tempo },
         ]}
       >
         <XAxis
@@ -155,14 +211,18 @@ function App() {
         <YAxis stroke="#eee" domain={[0, 100]} />
         <Bar dataKey="value" fill="#42a676" />
       </BarChart>
-      {response.title && status === "stale" && (
+      {predictResponse.title && status === "stale" && (
         <p>
           Predicted popularity of{" "}
-          <span className="italic bold">&quot;{response.title}&quot;</span> is{" "}
-          <span className="bold">{response.popularity}</span>.
+          <span className="italic bold">
+            &quot;{predictResponse.title}&quot;
+          </span>{" "}
+          is <span className="bold">{predictResponse.popularity}</span>.
         </p>
       )}
-      {!response.title && status === "stale" && <p className="bold">‎</p>}
+      {!predictResponse.title && status === "stale" && (
+        <p className="bold">‎</p>
+      )}
       {status === "calculating_metrics" && (
         <p>Calculating track&apos;s metrics...</p>
       )}
