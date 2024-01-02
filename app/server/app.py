@@ -30,7 +30,7 @@ def generate_pseudorandom_number(input_string):
 
 
 def postprocess_result(value):
-    return max(0, min(value + randrange(-20, 21), 100))
+    return max(0, min(value + randrange(-5, 6), 100))
 
 
 @app.route('/api/search', methods=['POST'])
