@@ -26,7 +26,7 @@ function App() {
   const [genre, setGenre] = useState("pop");
 
   const search = async () => {
-    const res = await fetch("", {
+    const res = await fetch("api/search", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
