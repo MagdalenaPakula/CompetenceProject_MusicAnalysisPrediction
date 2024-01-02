@@ -37,7 +37,7 @@ def search():
     response = jsonify({
         'tracks': list(map(lambda t : {
                 'name': t["name"],
-                authors: ", ".join(list(map(lambda a : a["name"], t["artists"]["items"])))
+                'authors': ", ".join(list(map(lambda a : a["name"], t["artists"]["items"])))
             }, 
             results["tracks"]["items"]))
         })
