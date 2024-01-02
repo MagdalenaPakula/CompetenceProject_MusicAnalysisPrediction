@@ -68,8 +68,8 @@ def echo():
             'liveness': result["liveness"] * 100,
             'loudness': (result["loudness"] + 60) / 60 * 100,
             'speechiness': result["speechiness"] * 100,
-            'tempo': min(result["tempo"] / 2, 100)
-            'valence': result["valence"] * 100,
+            'tempo': min(result["tempo"] / 2, 100),
+            'valence': result["valence"] * 100
         }
     })
 
