@@ -61,15 +61,15 @@ def echo():
         'popularity': popularity,
         'title': title,
         'metrics': {
-            'danceability': result["danceability"],
-            'energy': result["energy"],
-            'loudness': result["loudness"],
-            'speechiness': result["speechiness"],
-            'acousticness': result["acousticness"],
-            'instrumentalness': result["instrumentalness"],
-            'liveness': result["liveness"],
-            'valence': result["valence"],
-            'tempo': result["tempo"]
+            'acousticness': result["acousticness"] * 100,
+            'danceability': result["danceability"] * 100,
+            'energy': result["energy"] * 100,
+            'instrumentalness': result["instrumentalness"] * 100,
+            'liveness': result["liveness"] * 100,
+            'loudness': (result["loudness"] + 60) / 60 * 100,
+            'speechiness': result["speechiness"] * 100,
+            'tempo': min(result["tempo"] / 2, 100)
+            'valence': result["valence"] * 100,
         }
     })
 

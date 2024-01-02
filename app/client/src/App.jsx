@@ -42,7 +42,7 @@ function TrackList({ tracks, handleSelection, activeId }) {
             handleClick={() => {
               handleSelection(row.id);
             }}
-            key={row.title}
+            key={`${row.title}-${idx}`}
           />
         ) : (
           <div className="track--empty" key={idx} />
