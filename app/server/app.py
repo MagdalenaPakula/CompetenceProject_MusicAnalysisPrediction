@@ -29,9 +29,10 @@ def generate_pseudorandom_number(input_string):
 def search():
     title = request.json.get('title')
 
+    bearer = requests.post("https://api.spotify.com/v1/token", data={"grant_type": "client_credentials"}, headers={'Authorization': 'Basic ZDQ1ODAyNTZiNGMxNGQ4Yjk1YmQ1MWViZGRhYTQ5MzI6Y2NlMjI0YTQ2OTMwNDU2ZjgyNzQwNmJkZmQ4YjAzNTk='})
     r = requests.get("https://api.spotify.com/v1/search", params={'type': 'track', 'q': title}, headers={'Authorization': 'Basic ZDQ1ODAyNTZiNGMxNGQ4Yjk1YmQ1MWViZGRhYTQ5MzI6Y2NlMjI0YTQ2OTMwNDU2ZjgyNzQwNmJkZmQ4YjAzNTk='})
 
-    return r.text
+    return bearer.text
 
 
 @app.route('/api/predict_popularity', methods=['POST'])
